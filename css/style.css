@@ -1,0 +1,42 @@
+*{
+    display: block;
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+body{
+    color: #312921;
+    background-color: #F6F6F4;
+}
+
+.title{
+    color: #ffffff;
+    background-color: #938274;
+    padding: 5px;
+    margin: 15px;
+}
+
+.keeb{
+    width: 50%;
+}
+
+.specs{
+    background-color: #CAC2BA;
+    color: #000000;
+    font-size: 1em;
+    padding: 5px;
+    margin: 15px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .title, .specs{
+        color: #F6F6F4;
+        background-color: #312921;
+    }
+    
+    .keeb{
+        width: 100%;
+    }
+}
